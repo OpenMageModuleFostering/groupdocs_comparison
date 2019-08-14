@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/groupdocs_comparison",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Compare Word and PDF documents side by side directly on your Magento website.",
+    "authors": [
+    {
+        "name": "GroupDocs",
+        "email": "marketplace@groupdocs.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package>
+    <name>groupdocs_comparison</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Compare Word and PDF documents side by side directly on your Magento website.</summary>
+    <description>With this extension you and your website visitors will be able to compare two versions of a Word document directly on your website. This is a convenient approach of comparing documents online, when several parties can see the differences between two revisions of a document at the same time.&#xD;
+Compare Word Documents Online&#xD;
+&#xD;
+Once installed, you will be able to compare Word documents by uploading and embedding two versions of a document directly into your Magento web-pages. GroupDocs Comparison tool will merge the documents automatically and highlight differences between the two documents. This way you can compare any word processing documents online right from your favorite web-browser and without having to install the software that the documents were created in initially.&#xD;
+Document Formats Supported&#xD;
+&#xD;
+With GroupDocs Comparison, you can compare literally any word processing files, including: DOC, DOCX, DOCM, DOT, DOTM, DOTX, RTF, ODT, ODS and OTT. In addition to that, you can also compare two revisions of a PDF document, Excel spreadsheet (XLS, XLSX, CSV), PowerPoint presentation (PPT, PPTX) and HTML document.&#xD;
+Key Features of the GroupDocs Comparison Extension&#xD;
+&#xD;
+1. Documents embedded into web-pages are rendered using HTML5. Thanks to this, your web-site visitors won't need Flash or any web-browser plug-ins to view the compared documents right on your Magento web-pages.&#xD;
+&#xD;
+2. Embedded documents are not converted to images, but rendered just like real text documents. This allows you, for example, to select and copy text right from the document embedded to a web-page; or you can search for a particular text (a word or a phrase) within the document.&#xD;
+&#xD;
+3. To compare two versions of a document, neither you nor your website visitors need the original software that the documents were created in to be installed. Documents are compared online and can be viewed from a web-browser and from any web-enabled device.&#xD;
+&#xD;
+4. Uploaded revisions of a document are automatically merged with the Change Tracking feature, showing you all the differences between the document versions you compare. Added text is highlighted with underlines and removed one - with strikeouts. This approach is quite similar to when you track changes in a document with MS Word app.&#xD;
+&#xD;
+5. When comparing Word documents, you can merge the two revisions of a document and export them to a single DOC or DOCX file with the MS Word's Track Changes feature turned on. You can then edit the document offline by accepting or rejecting the changes in a document.&#xD;
+&#xD;
+For more information on how to compare Word and other business documents online, please visit GroupDocs Comparison Homepage.&#xD;
+Installation and configuration documentation for the extension may be found here.</description>
+    <notes>initial relise with base functionality</notes>
+    <authors><author><name>GroupDocs</name><user>Marketplace</user><email>marketplace@groupdocs.com</email></author></authors>
+    <date>2013-07-03</date>
+    <time>05:42:52</time>
+    <contents><target name="magelocal"><dir><dir name="Gdc"><dir name="Groupdocscomparison"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Form"><file name="Form.php" hash="4c97e0e803284b87fb2e02667eb8e8ec"/></dir><dir name="Page"><file name="Edit.php" hash="2dc87f5fdc201c68919a2ffcd1ef01de"/></dir></dir><file name="Groupdocscomparison.php" hash="276955368738c834d7dec25e19da9f38"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="ComparisonController.php" hash="8ac4e59fdba5150c1cc6ced106b034a0"/></dir></dir><dir name="etc"><file name="config.xml" hash="db290fcdec1eb772f602d4b86d13a035"/></dir><dir name="Helper"><file name="Data.php" hash="36be06bd0edf26fc505ba7c1b2c55d05"/></dir><dir name="js"><file name=".htaccess" hash="7cffe2704dc0e86389a2d02391dcca5d"/><file name="insert.js" hash="4d9b7410b0cf3aa3524144db2c298853"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Groupdocscomparison"><file name="Collection.php" hash="ae551c1abcca550c79c107737e7fe2e1"/></dir><file name="groupdocscomparison.php" hash="de49b10a88dd99b93a1ebe9c92604d1e"/><file name="groupdocscomparison.php" hash="de49b10a88dd99b93a1ebe9c92604d1e"/></dir><file name="groupdocscomparison.php" hash="4c5c247f3d81a28d86a005652816f5ac"/></dir><dir name="sql"><dir name="Groupdocscomparison_setup"><file name="mysql4-install-0.1.0" hash="62218edae4b80b5916bd56908008006a"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Gdc_Groupdocscomparison.xml" hash="0c4e3f641f2092e4004eed296be85853"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.4.15</max></php></required></dependencies>
+</package>
